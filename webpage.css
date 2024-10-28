@@ -1,0 +1,557 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1b1e30;
+    font-family: sans-serif;
+    color: gray;
+	margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #08090f;
+    height: 85px;
+}
+
+.logo {
+    height: 20px;
+    width: auto;
+    margin-right: 500px;
+}
+
+.navbutton {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+li {
+    margin-left: 20px;
+}
+
+li a.navlink {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+font {
+    color: #ffc107;
+}
+
+h1 {
+    color: white;
+    margin-top: -10px;
+}
+
+
+
+.spacer {
+    width: 80px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 20px 2% 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-content {
+    max-width: 600px;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: -30px;
+}
+
+.text-content p {
+    width: 100%;
+}
+
+.main h3{
+    text-align: left;
+    color:#ffc107 ;
+}
+
+.main img {
+    max-width: 450px;
+    height: auto;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #dfa910;
+    padding: 10px 20px;
+    border: 0px solid #dfa910;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alternate {
+    background-color: #08090f;
+	padding: 5% 0 2% 0;
+}
+
+.altcontent {
+    display: flex;
+    align-items: center; 
+    margin: 0 auto;
+	padding-bottom: 5%;
+    max-width: 1200px;
+}
+
+.svg-frame {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-image {
+    position: absolute;
+    left: 20px; 
+    width: 100%; 
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.innertext {
+    margin-left: 50px;
+    z-index: 1;
+    flex-grow: 1;
+}
+
+.innertext p {
+    width: 95%;
+}
+
+.services p {
+    width: 50%;
+}
+
+.services .containers p, h3,svg{
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.portfolio-section h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.portfolio-section .container h2 span {
+    color: #dfa910;
+}
+
+.thirdlayer {
+    background-color: #08090f;
+    padding: 1% 20px 4% 20px;
+}
+
+.thirdlayer .container p {
+    text-align: center;
+    width: 600px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+h2 span {
+    color: #dfa910;
+}
+
+p {
+    color: #cccdd5;
+    margin-bottom: 40px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 20px;
+}
+
+.portfolio-itembig img {
+    width: 100%;
+    border-radius: 20px;
+    height: 498px;
+    object-fit: cover;
+}
+
+.small-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.experiences, .services {
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width: 1200px;
+}
+
+.experiences .containers h1 {
+    margin-top: 20px;
+    color: #dfa910;
+    text-align: left;
+}
+
+.experiences .containers h4 {
+    color: #cccdd5;
+}
+
+.experiences .containers span {
+    color: #bdc0c8;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.containers div {
+    border-radius: 15px;
+    height: 280px;
+    background-color: #08090f;
+    flex: 0 1 calc(33.3% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.container p {
+    width: 20%;
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.contactme {
+    background-color: #08090f;
+    text-align: center;
+    padding-top: 50px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+    gap: 300px;
+}
+
+.nonInput {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.nonInput h3 {
+    color: #ffc107;
+    text-align: left;
+
+}
+
+.inputUser {
+    width: 300px;
+    text-align: left;
+}
+
+.form-control {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #08090f;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #ffc107;
+}
+
+.message-control {
+    padding: 10px;
+    width: 90%;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #08090f;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.message-control:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.inputButtonUser {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.inputButtonUser:hover {
+    background-color: #0056b3;
+}
+
+.aboutMeFooter {
+    text-align: center;
+    background-color: #08090f;
+}
+
+.aboutMeFooter h1, .aboutMeFooter p {
+    color: white;
+}
+
+.logocontainers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.logocontainers img {
+    width: 40px;
+    height: 40px;
+    filter: grayscale(100%); 
+    opacity: 0.4; 
+    transition: filter 0.3s ease, opacity 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
+}
+
+.logocontainers img:hover {
+    filter: none; 
+    opacity: 1;
+    background-color: #ffc107; 
+    padding: 5px; 
+    border-radius: 5px; 
+}
+
+input[type="text"]:focus,
+input[type="message"]:focus,
+textarea:focus {
+    color: gray; 
+
+}
+.hamburger {
+    display: none; 
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    height: 4px;
+    width: 30px;
+    background-color: #ffc107; 
+    margin: 3px 0; 
+}
+
+
+
+@media (max-width: 900px) {
+    
+    .hamburger {
+        display: flex; 
+        margin-left: auto; 
+    }
+
+   
+    .navbutton {
+        display: none;
+        flex-direction: column; 
+        width: 100%; 
+        position: absolute; 
+        top: 100px; 
+        right: -920px;
+        background-color: white; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+
+    
+    }
+
+   .navbutton.active {
+   display: flex;
+   background-color: transparent;
+
+   
+}
+
+    .navbutton li {
+        padding: 10px; 
+        margin-right: -500px;
+        width: 80px;
+        background-color: #dfa910;
+        border-radius: 30px;
+       text-align: center;
+
+    }
+
+    
+    .main {
+		width: 1000px;
+        align-items: center; 
+        text-align: center; 
+    }
+
+    
+    img {
+        width: 100%; 
+        max-width: 400px; 
+        height: auto; 
+        margin-top: 20px;
+
+    }
+
+   
+    .container {
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        margin: 10px 0; 
+    }
+
+   
+    .container > div {
+        flex: none; 
+        padding: 10px; 
+        width: 100%;
+        text-align: center;
+    }
+    .profile-image{
+        margin-top: 120px;
+    }
+    .form-control{
+        width: 90%;
+    }
+    .contact-details {
+        gap: 0px;
+    }
+    .nonInput{
+        margin-left: 40px;
+    }
+    .navbar{
+        background-color: #08090f;
+        width: 1000px;
+        padding: 20px;
+
+    }
+
+    .UIDesigner p,.UIDesigner2 p,.UIDesigner3 p{
+        
+        margin-top: -15px;
+    }
+    .experiences .containers h1 {
+    margin-top: 0px;
+		
+	}
+
+	.small-pictures {
+		margin-right: 50px;
+	}
+
+
+	.thirdlayer {
+			width: 1000px;
+			max-width:1000px ;
+		}
+
+	.contactme,.aboutMeFooter{
+		padding: 50px 25px 20px 20px;
+		width: 1000px;
+	}
+
+	.services, .experiences,.alternate{
+		padding: 50px 25px 50px 20px;
+		width: 1000px;
+	}
+
+	.inputUser{
+		margin-right: 50px;
+	}
+
+	.main img{
+		max-width: 300px;
+	  }
+	.portfolio-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width: 1300px) and (min-width: 900px){
+  .alternate, .services, .experiences, .main, .thirdlayer, .contactme {
+	  padding: 5% 5%;
+  }
+  
+  .navbar img {
+	  margin-right: auto;
+	  margin-left: 5%;
+  }
+  
+  .navbutton {
+	  margin-right: 5%;
+	  margin-left: auto;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 1000px){
+	.containers h4 {
+		margin: -2% 0;
+	}
+}
+
